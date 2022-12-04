@@ -4,7 +4,7 @@
 
     Ejemplo:
     hola mundo desde python ->
-    {'h': 2, 'o': 3, 'l': 1, 'a': 1, 'm': 1, 'u': 1, 'n': 2, 'd': 3, 'e': 2, 's': 1, 'p': 1, 'y': 1, 't': 1}
+    {'h': 2, 'o': 3, 'lo': 1, 'a': 1, 'm': 1, 'u': 1, 'n': 2, 'd': 3, 'e': 2, 's': 1, 'p': 1, 'y': 1, 't': 1}
 """
 
 frase = input("Ingrese un frase: ")

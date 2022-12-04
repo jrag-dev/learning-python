@@ -1,5 +1,5 @@
 """
-    usando bucles sobre listas
+    usando 03-bucles sobre listas
 """
 
 magicians = ['alice', 'david', 'carolina']
