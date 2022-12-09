@@ -1,0 +1,33 @@
+"""
+    La herencia que consta de múltiples tipos de herencia se denomina
+    herencia hídrida.
+"""
+
+class School:
+    def func1(self):
+        print("This function is in school.")
+
+
+class Student1(School):
+
+    def func2(self):
+        print("This function is in student 1")
+
+
+class Student2(School):
+
+    def func3(self):
+        print("This function is in student 2.")
+
+
+class Student3(Student1, School):
+
+    def func4(self):
+        print("This function is in student 3.")
+
+
+# main code
+obj = Student3()
+obj.func1()
+obj.func2()
+obj.func4()
