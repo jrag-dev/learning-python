@@ -1,0 +1,13 @@
+"""
+    Pasar funciones como argumentos en otras funciones
+"""
+
+def plus_one(number):
+    return number + 1
+
+def function_call(function):
+    number_to_add = 5
+    return function(number_to_add)
+
+
+print(function_call(plus_one))
